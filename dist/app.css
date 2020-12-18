@@ -176,3 +176,26 @@ header .right-content img {
   width: 100%;
 }
 
+.section7 {
+  text-align: center;
+}
+
+.section7 .top-content h1 img {
+  height: 20px;
+}
+
+.section7 .central-content {
+  display: inline-block;
+  text-align: left;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.section7 .central-content img {
+  height: 40px;
+}
+
+.section7 .central-content .text {
+  display: inline-block;
+}
+
