@@ -1,0 +1,18 @@
+// regole header
+header{
+  display: flex;
+  justify-content: center;
+  padding: 0 12%;
+  // debug
+  border: 1px solid black;
+
+  .left-content{
+
+  }
+
+  .right-content{
+    img{
+      height: 300px;
+    }
+  }
+}
