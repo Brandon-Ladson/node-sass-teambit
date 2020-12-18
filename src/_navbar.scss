@@ -7,7 +7,7 @@ nav{
   height: 55px;
   padding: 0 12%;
   background-color: $white;
-  border-bottom: 1px solid $brown;
+  border-bottom: 1px solid $blue;
 
   .left-content{
     display: flex;
@@ -15,7 +15,6 @@ nav{
 
     img{
       height: 30px;
-      width: 30px;
       margin-right: 10px;
     }
 
@@ -31,13 +30,13 @@ nav{
     a{
       padding: 10px;
       margin-left: 20px;
-      color: $brown;
+      color: $blue;
     }
 
     button{
       background-color: $white;
-      color: $blue;
-      border: 1px solid $blue;
+      color: $purple;
+      border: 1px solid $purple;
       margin-left: 20px;
 
       img{
