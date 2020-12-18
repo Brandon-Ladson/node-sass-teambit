@@ -1,0 +1,25 @@
+// regole sezione 6
+.section6{
+  display: flex;
+  justify-content: flex-end;
+
+  & > div{
+    // width: calc(100% / 2);
+    // debug
+    border: 1px solid black;
+  }
+
+  .left-content{
+    img{
+      display: block;
+      height: 200px;
+    }
+  }
+
+  .right-content{
+    width: 50%;
+    img{
+      width: 100%;
+    }
+  }
+}

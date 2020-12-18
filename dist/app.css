@@ -154,3 +154,25 @@ header .right-content img {
   height: 200px;
 }
 
+.section6 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.section6 > div {
+  border: 1px solid black;
+}
+
+.section6 .left-content img {
+  display: block;
+  height: 200px;
+}
+
+.section6 .right-content {
+  width: 50%;
+}
+
+.section6 .right-content img {
+  width: 100%;
+}
+
