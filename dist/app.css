@@ -384,20 +384,24 @@ header .right-content img {
 
 footer {
   display: flex;
-  padding: 0 12%;
+  padding: 80px 12%;
 }
 
 footer .left-content {
   width: 30%;
-  border: 1px solid blue;
 }
 
 footer .left-content img {
   height: 40px;
+  margin-bottom: 10px;
 }
 
 footer .left-content p {
   display: inline-block;
+}
+
+footer .left-content p span {
+  color: #7F14D4;
 }
 
 footer .right-content {
@@ -407,10 +411,17 @@ footer .right-content {
 
 footer .right-content .column {
   width: calc(100% / 5);
-  border: 1px solid green;
+}
+
+footer .right-content .column h4 {
+  margin-bottom: 10px;
 }
 
 footer .right-content .column ul {
   list-style: none;
+}
+
+footer .right-content .column ul li {
+  margin: 10px 0;
 }
 

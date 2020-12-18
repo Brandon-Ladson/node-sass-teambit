@@ -1,19 +1,22 @@
 // regole footer
 footer{
   display: flex;
-  padding: 0 12%;
+  padding: 80px 12%;
 
   .left-content{
     width: 30%;
-    // debug
-    border: 1px solid blue;
 
     img{
       height: 40px;
+      margin-bottom: 10px;
     }
 
     p{
       display: inline-block;
+
+      span{
+        color: $purple;
+      }
     }
   }
 
@@ -22,11 +25,17 @@ footer{
     width: 70%;
     .column{
       width: calc(100% / 5);
-      // debug
-      border: 1px solid green;
+
+      h4{
+        margin-bottom: 10px;
+      }
 
       ul{
         list-style: none;
+
+        li{
+          margin: 10px 0;
+        }
       }
     }
   }
