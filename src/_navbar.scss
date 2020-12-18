@@ -29,9 +29,19 @@ nav{
     align-items: center;
 
     a{
+      display: flex;
+      justify-content: center;
       padding: 10px;
       margin-left: 20px;
       color: $blue;
+
+      &:hover{
+        color: $purple;
+      }
+
+      i{
+        margin-left: 5px;
+      }
     }
 
     button{
@@ -39,6 +49,11 @@ nav{
       color: $purple;
       border: 1px solid $purple;
       margin-left: 20px;
+
+      &:hover{
+        background-color: $purple;
+        color: $white;
+      }
 
       img{
         height: 15px;

@@ -3,20 +3,22 @@ header{
   display: flex;
   justify-content: center;
   padding: 135px 12% 80px 12%;
-  // padding-top: 55px;
-  // debug
-  border: 1px solid black;
 
   .left-content{
 
-    p:first-of-type{
+    p{
       margin: 40px 0;
     }
 
-    p:last-of-type{
+    a{
       display: flex;
       align-items: center;
       margin-top: 20px;
+      color: $black;
+
+      &:hover{
+        color: $purple;
+      }
 
       i{
         margin-left: 5px;
@@ -29,7 +31,7 @@ header{
 
       span{
         margin: 0 5px;
-        color: $light-grey;
+        color: $black;
       }
 
       button{
