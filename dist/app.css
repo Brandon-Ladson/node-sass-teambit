@@ -46,3 +46,25 @@ header .right-content img {
   height: 300px;
 }
 
+.section1 {
+  text-align: center;
+  border: 1px solid red;
+}
+
+.section1 .central-content {
+  display: flex;
+}
+
+.section1 .central-content .box {
+  width: calc(100% / 3);
+  border: 1px solid black;
+}
+
+.section1 .central-content .box img {
+  height: 80px;
+}
+
+.section1 .bottom-content img {
+  height: 200px;
+}
+

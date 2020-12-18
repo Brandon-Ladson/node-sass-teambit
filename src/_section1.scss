@@ -1,0 +1,26 @@
+// regole sezione 1
+.section1{
+  text-align: center;
+  // debug
+  border: 1px solid red;
+
+  .central-content{
+    display: flex;
+
+    .box{
+      width: calc(100% / 3);
+      // debug
+      border: 1px solid black;
+
+      img{
+        height: 80px;
+      }
+    }
+  }
+
+  .bottom-content{
+    img{
+      height: 200px;
+    }
+  }
+}
