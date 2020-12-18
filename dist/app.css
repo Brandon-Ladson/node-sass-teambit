@@ -95,8 +95,11 @@ header .right-content img {
 }
 
 .section3 > div {
-  width: calc(100% / 2);
   border: 1px solid black;
+}
+
+.section3 .left-content {
+  width: 50%;
 }
 
 .section3 .left-content img {
@@ -106,5 +109,27 @@ header .right-content img {
 .section3 .right-content img {
   display: block;
   height: 200px;
+}
+
+.section4 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.section4 > div {
+  border: 1px solid black;
+}
+
+.section4 .left-content img {
+  display: block;
+  height: 200px;
+}
+
+.section4 .right-content {
+  width: 50%;
+}
+
+.section4 .right-content img {
+  width: 100%;
 }
 

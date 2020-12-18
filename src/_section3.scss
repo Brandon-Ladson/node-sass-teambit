@@ -3,12 +3,13 @@
   display: flex;
 
   & > div{
-    width: calc(100% / 2);
+    // width: calc(100% / 2);
     // debug
     border: 1px solid black;
   }
 
   .left-content{
+    width: 50%;
     img{
       width: 100%;
     }
