@@ -245,16 +245,27 @@ header .right-content img {
   display: flex;
 }
 
-.section5 > div {
-  border: 1px solid black;
-}
-
 .section5 .left-content {
   width: 50%;
 }
 
 .section5 .left-content img {
   width: 100%;
+}
+
+.section5 .right-content p {
+  margin: 20px 0;
+}
+
+.section5 .right-content a {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  color: #7F14D4;
+}
+
+.section5 .right-content a i {
+  margin-left: 5px;
 }
 
 .section5 .right-content img {

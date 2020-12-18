@@ -2,12 +2,6 @@
 .section5{
   display: flex;
 
-  & > div{
-    // width: calc(100% / 2);
-    // debug
-    border: 1px solid black;
-  }
-
   .left-content{
     width: 50%;
     img{
@@ -16,6 +10,21 @@
   }
 
   .right-content{
+    p{
+      margin: 20px 0;
+    }
+
+    a{
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+      color: $purple;
+
+      i{
+        margin-left: 5px;
+      }
+    }
+
     img{
       display: block;
       height: 200px;
