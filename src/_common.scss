@@ -7,4 +7,17 @@
 
 body{
   font-family: sans-serif;
+  color: $brown;
+}
+
+a{
+  text-decoration: none;
+}
+
+button{
+  border-radius: 6px;
+}
+
+section{
+  padding: 80px 0;
 }
