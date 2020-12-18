@@ -9,6 +9,41 @@ header{
 
   .left-content{
 
+    p:first-of-type{
+      margin: 40px 0;
+    }
+
+    p:last-of-type{
+      display: flex;
+      align-items: center;
+      margin-top: 20px;
+
+      i{
+        margin-left: 5px;
+      }
+    }
+
+    .bottons-content{
+      display: flex;
+      align-items: center;
+
+      span{
+        margin: 0 5px;
+        color: $light-grey;
+      }
+
+      button{
+        padding: 6px 20px;
+        background-color: $blue;
+        color: $white;
+
+        img{
+          height: 15px;
+          margin-right: 5px;
+        }
+      }
+    }
+
   }
 
   .right-content{
