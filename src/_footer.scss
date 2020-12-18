@@ -1,0 +1,33 @@
+// regole footer
+footer{
+  display: flex;
+  padding: 0 12%;
+
+  .left-content{
+    width: 30%;
+    // debug
+    border: 1px solid blue;
+
+    img{
+      height: 40px;
+    }
+
+    p{
+      display: inline-block;
+    }
+  }
+
+  .right-content{
+    display: flex;
+    width: 70%;
+    .column{
+      width: calc(100% / 5);
+      // debug
+      border: 1px solid green;
+
+      ul{
+        list-style: none;
+      }
+    }
+  }
+}
