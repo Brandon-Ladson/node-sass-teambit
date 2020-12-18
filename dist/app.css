@@ -133,3 +133,24 @@ header .right-content img {
   width: 100%;
 }
 
+.section5 {
+  display: flex;
+}
+
+.section5 > div {
+  border: 1px solid black;
+}
+
+.section5 .left-content {
+  width: 50%;
+}
+
+.section5 .left-content img {
+  width: 100%;
+}
+
+.section5 .right-content img {
+  display: block;
+  height: 200px;
+}
+
