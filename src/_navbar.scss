@@ -11,8 +11,7 @@ nav{
   border-bottom: 1px solid $blue;
 
   .left-content{
-    display: flex;
-    align-items: center;
+    @include disp-flex-item-cent;
 
     img{
       height: 30px;
@@ -25,8 +24,7 @@ nav{
   }
 
   .right-content{
-    display: flex;
-    align-items: center;
+    @include disp-flex-item-cent;
 
     a{
       display: flex;

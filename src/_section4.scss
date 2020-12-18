@@ -2,33 +2,5 @@
 .section4{
   display: flex;
   justify-content: flex-end;
-
-  .left-content{
-    p{
-      margin: 20px 0;
-    }
-
-    a{
-      display: flex;
-      align-items: center;
-      margin-bottom: 20px;
-      color: $purple;
-
-      i{
-        margin-left: 5px;
-      }
-    }
-
-    img{
-      display: block;
-      height: 200px;
-    }
-  }
-
-  .right-content{
-    width: 50%;
-    img{
-      width: 100%;
-    }
-  }
+  @include sec-4-6;
 }

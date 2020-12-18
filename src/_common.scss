@@ -5,15 +5,18 @@
   box-sizing: border-box;
 }
 
+// regole body
 body{
   font-family: sans-serif;
   color: $black;
 }
 
+// regole link
 a{
   text-decoration: none;
 }
 
+// regole bottoni
 button{
   display: flex;
   align-items: center;
@@ -23,6 +26,77 @@ button{
   cursor: pointer;
 }
 
+// regole sezioni
 section{
   padding: 80px 0;
+}
+
+// regole display flex justify-content center
+@mixin disp-flex-item-cent {
+  display: flex;
+  align-items: center;
+}
+
+// regole sezioni 3 e 5
+@mixin sec-3-5 {
+  .left-content{
+    width: 50%;
+    img{
+      width: 100%;
+    }
+  }
+
+  .right-content{
+    p{
+      margin: 20px 0;
+    }
+
+    a{
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+      color: $purple;
+
+      i{
+        margin-left: 5px;
+      }
+    }
+
+    img{
+      display: block;
+      height: 200px;
+    }
+  }
+}
+
+// regole sezioni 4 e 6
+@mixin sec-4-6 {
+  .left-content{
+    p{
+      margin: 20px 0;
+    }
+
+    a{
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+      color: $purple;
+
+      i{
+        margin-left: 5px;
+      }
+    }
+
+    img{
+      display: block;
+      height: 200px;
+    }
+  }
+
+  .right-content{
+    width: 50%;
+    img{
+      width: 100%;
+    }
+  }
 }

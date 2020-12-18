@@ -1,33 +1,5 @@
 // regole sezione 5
 .section5{
   display: flex;
-
-  .left-content{
-    width: 50%;
-    img{
-      width: 100%;
-    }
-  }
-
-  .right-content{
-    p{
-      margin: 20px 0;
-    }
-
-    a{
-      display: flex;
-      align-items: center;
-      margin-bottom: 20px;
-      color: $purple;
-
-      i{
-        margin-left: 5px;
-      }
-    }
-
-    img{
-      display: block;
-      height: 200px;
-    }
-  }
+  @include sec-3-5;
 }

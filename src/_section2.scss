@@ -1,8 +1,7 @@
 // regole sezione 2
 .section2{
-  display: flex;
+  @include disp-flex-item-cent;
   flex-direction: column;
-  align-items: center;
   text-align: center;
   background-color: $light-blue;
 
