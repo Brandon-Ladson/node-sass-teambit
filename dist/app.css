@@ -278,8 +278,19 @@ header .right-content img {
   justify-content: flex-end;
 }
 
-.section6 > div {
-  border: 1px solid black;
+.section6 .left-content p {
+  margin: 20px 0;
+}
+
+.section6 .left-content a {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  color: #7F14D4;
+}
+
+.section6 .left-content a i {
+  margin-left: 5px;
 }
 
 .section6 .left-content img {
