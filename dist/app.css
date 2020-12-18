@@ -90,3 +90,21 @@ header .right-content img {
   height: 200px;
 }
 
+.section3 {
+  display: flex;
+}
+
+.section3 > div {
+  width: calc(100% / 2);
+  border: 1px solid black;
+}
+
+.section3 .left-content img {
+  width: 100%;
+}
+
+.section3 .right-content img {
+  display: block;
+  height: 200px;
+}
+
