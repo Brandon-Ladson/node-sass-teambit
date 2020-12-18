@@ -195,6 +195,7 @@ header .right-content img {
 .section3 .right-content a {
   display: flex;
   align-items: center;
+  margin-bottom: 20px;
   color: #7F14D4;
 }
 
@@ -212,8 +213,19 @@ header .right-content img {
   justify-content: flex-end;
 }
 
-.section4 > div {
-  border: 1px solid black;
+.section4 .left-content p {
+  margin: 20px 0;
+}
+
+.section4 .left-content a {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  color: #7F14D4;
+}
+
+.section4 .left-content a i {
+  margin-left: 5px;
 }
 
 .section4 .left-content img {

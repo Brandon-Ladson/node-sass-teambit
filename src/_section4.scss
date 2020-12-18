@@ -3,13 +3,22 @@
   display: flex;
   justify-content: flex-end;
 
-  & > div{
-    // width: calc(100% / 2);
-    // debug
-    border: 1px solid black;
-  }
-
   .left-content{
+    p{
+      margin: 20px 0;
+    }
+
+    a{
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+      color: $purple;
+
+      i{
+        margin-left: 5px;
+      }
+    }
+
     img{
       display: block;
       height: 200px;
